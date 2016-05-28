@@ -1,0 +1,666 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="工具," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="文章目录Sublimetext 真是个招人喜欢的编辑器…… （我以前用 TextMate，现在彻底转到 Sublimetext 上了。）
+
+下载Sublimetext 可以永远免费使用，但也接受购买，价格是 $70（也支持团购）—— 其实是非常值的，想想它能提高的效率罢，时间比什么都高贵。
+配置这种灵活的高级编辑器，往往需要自己不断手动配置，增加各种功能，逐步熟练掌握。
+基本配置文件依次点击 Su">
+<meta property="og:type" content="article">
+<meta property="og:title" content="必要的装备（1）SublimeText">
+<meta property="og:url" content="http://xiaolai.li/posts/2016/05/19/sublimetext/index.html">
+<meta property="og:site_name" content="{am} xiaolai">
+<meta property="og:description" content="文章目录Sublimetext 真是个招人喜欢的编辑器…… （我以前用 TextMate，现在彻底转到 Sublimetext 上了。）
+
+下载Sublimetext 可以永远免费使用，但也接受购买，价格是 $70（也支持团购）—— 其实是非常值的，想想它能提高的效率罢，时间比什么都高贵。
+配置这种灵活的高级编辑器，往往需要自己不断手动配置，增加各种功能，逐步熟练掌握。
+基本配置文件依次点击 Su">
+<meta property="og:image" content="http://xiaolai.li/images/ubuLOF1.gif">
+<meta property="og:image" content="http://xiaolai.li/images/open-with-sublime-applescript.png">
+<meta property="og:updated_time" content="2016-05-23T16:18:57.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="必要的装备（1）SublimeText">
+<meta name="twitter:description" content="文章目录Sublimetext 真是个招人喜欢的编辑器…… （我以前用 TextMate，现在彻底转到 Sublimetext 上了。）
+
+下载Sublimetext 可以永远免费使用，但也接受购买，价格是 $70（也支持团购）—— 其实是非常值的，想想它能提高的效率罢，时间比什么都高贵。
+配置这种灵活的高级编辑器，往往需要自己不断手动配置，增加各种功能，逐步熟练掌握。
+基本配置文件依次点击 Su">
+<meta name="twitter:image" content="http://xiaolai.li/images/ubuLOF1.gif">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"right","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> 必要的装备（1）SublimeText | {am} xiaolai </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">{am} xiaolai</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">an ever-growing brain</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                必要的装备（1）SublimeText
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-19T00:00:00+08:00" content="2016-05-19">
+              2016-05-19
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h1><h2 id=""><a href="#" class="headerlink" title=""></a><!-- toc --></h2><p><a href="http://sublimetext.com" target="_blank" rel="external">Sublimetext</a> 真是个招人喜欢的编辑器…… （我以前用 TextMate，现在彻底转到 Sublimetext 上了。）</p>
+<img src="/images/ubuLOF1.gif" class="middle" title="The text editor you" alt="ll fall in love with.">
+<h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p><a href="http://sublimetext.com" target="_blank" rel="external">Sublimetext</a> 可以永远免费使用，但也接受购买，价格是 $70（也支持团购）—— 其实是非常值的，想想它能提高的效率罢，时间比什么都高贵。</p>
+<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>这种灵活的高级编辑器，往往需要自己不断手动配置，增加各种功能，逐步熟练掌握。</p>
+<h2 id="基本配置文件"><a href="#基本配置文件" class="headerlink" title="基本配置文件"></a>基本配置文件</h2><p>依次点击 Sublimetext 菜单，<code>Sublime Text &gt; Preferences &gt; Settings - User</code>，而后在编辑器里拷贝粘贴以下配置代码保存即可。（暂时看不懂没关系，早晚会一眼看清楚……）</p>
+<figure class="highlight javascript"><figcaption><span>Sublime Text > Preferences > Settings - User</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="string">"color_scheme"</span>: <span class="string">"Packages/Color Scheme - Default/Solarized (Dark).tmTheme"</span>,</span><br><span class="line">  <span class="string">"bold_folder_labels"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"font_face"</span>: <span class="string">"Menlo"</span>,</span><br><span class="line">  <span class="string">"font_options"</span>: <span class="string">"subpixel_antialias"</span>,</span><br><span class="line">  <span class="string">"font_size"</span>: <span class="number">16</span>,</span><br><span class="line">  <span class="string">"highlight_line"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"highlight_modified_tabs"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"ignored_packages"</span>:</span><br><span class="line">  [</span><br><span class="line">      vintage</span><br><span class="line">  ],</span><br><span class="line">  <span class="string">"line_padding_bottom"</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="string">"line_padding_top"</span>: <span class="number">1</span>,</span><br><span class="line">  <span class="string">"rulers"</span>:</span><br><span class="line">  [</span><br><span class="line">      <span class="number">80</span></span><br><span class="line">  ],</span><br><span class="line">  <span class="string">"scroll_past_end"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"tab_size"</span>: <span class="number">4</span>,</span><br><span class="line">  <span class="string">"tab_completion"</span>: <span class="literal">false</span>,</span><br><span class="line">  <span class="string">"translate_tabs_to_spaces"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"trim_trailing_white_space_on_save"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"word_wrap"</span>: <span class="literal">true</span></span><br><span class="line">  <span class="string">"path"</span>: <span class="string">"/usr/bin:/bin:/usr/sbin:/sbin"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="从-Terminal-里唤出-Sublimetext"><a href="#从-Terminal-里唤出-Sublimetext" class="headerlink" title="从 Terminal 里唤出 Sublimetext"></a>从 Terminal 里唤出 Sublimetext</h2><p>一般在命令行下大家喜欢用缩写，比如<code>subl</code>，我觉得没啥必要，反正输入<code>sub</code>之后用<code>⇥</code>自动补全也一样，所以我还是直接用<code>sublime</code>:</p>
+<figure class="highlight plain"><figcaption><span>ln -s sublime</span></figcaption><table><tr><td class="code"><pre><span class="line">ln -s &quot;/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl&quot; /usr/local/bin/sublime</span><br></pre></td></tr></table></figure>
+<h2 id="在-Finder-上添加个按钮，“Open-with-sublimetext”"><a href="#在-Finder-上添加个按钮，“Open-with-sublimetext”" class="headerlink" title="在 Finder 上添加个按钮，“Open with sublimetext”"></a>在 Finder 上添加个按钮，“Open with sublimetext”</h2><p>用 Automator 创建一个 Application（不是 Workflow 或者 Service），添加一个 AppleScript:</p>
+<img src="/images/open-with-sublime-applescript.png">
+<figure class="highlight applescript"><figcaption><span>Automator Application AppleScript</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">on</span> <span class="built_in">run</span> &#123;input, parameters&#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">set</span> finderSelection <span class="keyword">to</span> <span class="string">""</span></span><br><span class="line">  <span class="keyword">set</span> theTarget <span class="keyword">to</span> <span class="string">""</span></span><br><span class="line">  <span class="keyword">set</span> appPath <span class="keyword">to</span> <span class="built_in">path to</span> <span class="built_in">application</span> <span class="string">"Sublime Text"</span></span><br><span class="line">  <span class="keyword">set</span> defaultTarget <span class="keyword">to</span> (<span class="built_in">path to</span> home folder <span class="keyword">as</span> <span class="built_in">alias</span>)</span><br><span class="line">  <span class="comment">-- comment line above and uncomment line below to open desktop instead of user home when there's no selection or open folder in the Finder:</span></span><br><span class="line">  <span class="comment">-- set defaultTarget to (path to desktop folder as alias)</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (input <span class="keyword">as</span> <span class="built_in">string</span>) <span class="keyword">is</span> <span class="string">""</span> <span class="keyword">then</span></span><br><span class="line">    <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">      <span class="keyword">set</span> finderSelection <span class="keyword">to</span> (<span class="keyword">get</span> selection)</span><br><span class="line">      <span class="keyword">if</span> <span class="built_in">length</span> <span class="keyword">of</span> finderSelection <span class="keyword">is</span> <span class="keyword">greater than</span> <span class="number">0</span> <span class="keyword">then</span></span><br><span class="line">        <span class="keyword">set</span> theTarget <span class="keyword">to</span> finderSelection</span><br><span class="line">      <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">try</span></span><br><span class="line">          <span class="keyword">set</span> theTarget <span class="keyword">to</span> (folder <span class="keyword">of</span> <span class="keyword">the</span> <span class="keyword">front</span> window <span class="keyword">as</span> <span class="built_in">alias</span>)</span><br><span class="line">        <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line">          <span class="keyword">set</span> theTarget <span class="keyword">to</span> defaultTarget</span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">        open theTarget using appPath</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">set</span> targets <span class="keyword">to</span> &#123;&#125;</span><br><span class="line">      <span class="keyword">set</span> oldDelimiters <span class="keyword">to</span> <span class="literal">text item delimiters</span></span><br><span class="line">      <span class="keyword">set</span> <span class="literal">text item delimiters</span> <span class="keyword">to</span> <span class="literal">tab</span></span><br><span class="line">      <span class="keyword">set</span> qArray <span class="keyword">to</span> <span class="keyword">every</span> <span class="built_in">text</span> <span class="built_in">item</span> <span class="keyword">of</span> q</span><br><span class="line">      <span class="keyword">set</span> <span class="literal">text item delimiters</span> <span class="keyword">to</span> oldDelimiters</span><br><span class="line">      <span class="keyword">repeat</span> <span class="keyword">with</span> atarget <span class="keyword">in</span> qArray</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> atarget <span class="keyword">starts with</span> <span class="string">"~"</span> <span class="keyword">then</span></span><br><span class="line">        <span class="keyword">set</span> userHome <span class="keyword">to</span> <span class="keyword">POSIX path</span> <span class="keyword">of</span> (<span class="built_in">path to</span> home folder)</span><br><span class="line">        <span class="keyword">if</span> userHome <span class="keyword">ends with</span> <span class="string">"/"</span> <span class="keyword">then</span></span><br><span class="line">          <span class="keyword">set</span> userHome <span class="keyword">to</span> <span class="built_in">characters</span> <span class="number">1</span> <span class="keyword">thru</span> <span class="number">-2</span> <span class="keyword">of</span> userHome <span class="keyword">as</span> <span class="built_in">string</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span></span><br><span class="line">          <span class="keyword">set</span> atarget <span class="keyword">to</span> userHome &amp; <span class="built_in">characters</span> <span class="number">2</span> <span class="keyword">thru</span> <span class="number">-1</span> <span class="keyword">of</span> atarget <span class="keyword">as</span> <span class="built_in">string</span></span><br><span class="line">        <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line">          <span class="keyword">set</span> atarget <span class="keyword">to</span> userHome</span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">set</span> targetAlias <span class="keyword">to</span> ((<span class="keyword">POSIX file</span> atarget) <span class="keyword">as</span> <span class="built_in">alias</span>)</span><br><span class="line">        <span class="keyword">set</span> targets <span class="keyword">to</span> targets &amp; targetAlias</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">set</span> theTarget <span class="keyword">to</span> targets</span><br><span class="line"></span><br><span class="line">      <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">        open theTarget using appPath</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line"><span class="built_in">        return</span> (input <span class="keyword">as</span> <span class="built_in">string</span>) &amp; <span class="string">" is not a valid file or folder path."</span></span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">  <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"><span class="built_in"></span><br><span class="line">  return</span> input</span><br><span class="line"><span class="keyword">end</span> <span class="built_in">run</span></span><br></pre></td></tr></table></figure>
+<p>而后把这个 Application 保存到 <code>~/Applications</code> 目录中，在按住 Command 键的同时，将这个程序拖到 Finder 工具栏上……</p>
+<h2 id="安装-Package-Control"><a href="#安装-Package-Control" class="headerlink" title="安装 Package Control"></a>安装 Package Control</h2><p>使用快捷键 <code>⌃ + ` </code> 呼出控制台，在输入框中输入：</p>
+<figure class="highlight python"><figcaption><span>安装 Package Control: packagecontrol</span><a href="https://packagecontrol.io/installation" target="_blank" rel="external">link</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.replace(<span class="string">' '</span>, <span class="string">'%20'</span>)).read(); dh = hashlib.sha256(by).hexdigest(); print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h)) <span class="keyword">if</span> dh != h <span class="keyword">else</span> open(os.path.join( ipp, pf), <span class="string">'wb'</span> ).write(by)</span><br></pre></td></tr></table></figure>
+<h2 id="安装常用插件"><a href="#安装常用插件" class="headerlink" title="安装常用插件"></a>安装常用插件</h2><p>⇧ + ⌘ + P，呼出 Package Control, 输入 Packge install，按回车键，而后选择相应的 Package 安装……</p>
+<blockquote>
+<ul>
+<li>SidebarEnhancement</li>
+<li>AllAutoComplete</li>
+<li>Alignment</li>
+<li>SublimeGit</li>
+<li>GitGutter</li>
+<li>Origami</li>
+<li>MarkdownEditing</li>
+<li>Ctags</li>
+<li>Table Editor</li>
+<li>Emmet</li>
+<li>Terminal</li>
+<li>ColorPicker</li>
+<li>FileDiffs</li>
+</ul>
+</blockquote>
+<h2 id="关掉-Vintage"><a href="#关掉-Vintage" class="headerlink" title="关掉 Vintage"></a>关掉 Vintage</h2><p>Sublimetext 兼容那个神一样的编辑器 Vi/Vim，所以也有 Visual/Comman/Insert 模式，可对于那些不使用或者不会使用 Vi/Vim 的人来说，这个模式很耽误事儿，想要关掉它，还挺费劲：</p>
+<figure class="highlight plain"><figcaption><span>使用“Shift+Command+P”打开 Package Control</span></figcaption><table><tr><td class="code"><pre><span class="line">Shift+Command+P &gt; Package Control: Disable Packages &gt; Vintage</span><br></pre></td></tr></table></figure>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><h2 id="安装-Package-Control-1"><a href="#安装-Package-Control-1" class="headerlink" title="安装 Package Control"></a>安装 Package Control</h2><p>使用快捷键 ⌃ + ` 呼出控制台，在输入框中输入：</p>
+<figure class="highlight python"><figcaption><span>安装 Package Control: packagecontrol</span><a href="https://packagecontrol.io/installation" target="_blank" rel="external">link</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.replace(<span class="string">' '</span>, <span class="string">'%20'</span>)).read(); dh = hashlib.sha256(by).hexdigest(); print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h)) <span class="keyword">if</span> dh != h <span class="keyword">else</span> open(os.path.join( ipp, pf), <span class="string">'wb'</span> ).write(by)</span><br></pre></td></tr></table></figure>
+<h2 id="关掉-Vintage-1"><a href="#关掉-Vintage-1" class="headerlink" title="关掉 Vintage"></a>关掉 Vintage</h2><p>Sublimetext 兼容那个神一样的编辑器 Vi/Vim，所以也有 Visual/Comman/Insert 模式，可对于那些不使用或者不会使用 Vi/Vim 的人来说，这个模式很耽误事儿，想要彻底关掉它，还挺费劲；最好是通过 Package Control 去做：</p>
+<figure class="highlight plain"><figcaption><span>用“⇧+⌘+P”打开 Package Control</span></figcaption><table><tr><td class="code"><pre><span class="line">Disable Packages &gt; Vintage</span><br></pre></td></tr></table></figure>
+<h2 id="常用插件"><a href="#常用插件" class="headerlink" title="常用插件"></a>常用插件</h2><blockquote>
+<ul>
+<li>SidebarEnhancement</li>
+<li>AllAutoComplete</li>
+<li>Alignment</li>
+<li>SublimeGit</li>
+<li>GitGutter</li>
+<li>Origami</li>
+<li>MarkdownEditing</li>
+<li>Ctags</li>
+<li>Table Editor</li>
+<li>Emmet</li>
+<li>Terminal</li>
+<li>ColorPicker</li>
+<li>FileDiffs</li>
+</ul>
+</blockquote>
+<h1 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h1><h2 id="Sublimetext-的图标"><a href="#Sublimetext-的图标" class="headerlink" title="Sublimetext 的图标"></a>Sublimetext 的图标</h2><p>这两个都不错，反正比原生的强太多了：</p>
+<blockquote>
+<ul>
+<li><a href="https://dribbble.com/shots/2273297-Sublime-Text-Icon" target="_blank" rel="external">https://dribbble.com/shots/2273297-Sublime-Text-Icon</a></li>
+<li><a href="https://dribbble.com/shots/337996-Sublime-Text-2-Icon" target="_blank" rel="external">https://dribbble.com/shots/337996-Sublime-Text-2-Icon</a></li>
+</ul>
+</blockquote>
+<h2 id="多台机器使用同一个配置"><a href="#多台机器使用同一个配置" class="headerlink" title="多台机器使用同一个配置"></a>多台机器使用同一个配置</h2><p>到<code>~/Application Support</code>目录里，把<code>Packages</code>和<code>Installed Packages</code>这两个目录拷贝到 iCloud 目录里，而后用<code>ln -s</code>命令创建硬链：</p>
+<figure class="highlight plain"><figcaption><span>使用 iCloud 同步配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line">mkdir ~/Library/Mobile\ Documents/com~apple~CloudDocs/Sublime\ Text\ 3</span><br><span class="line">mv ~/Application\ Support/Sublime\ Text\ 3/Packages ~/Library/Mobile\ Documents/com~apple~CloudDocs/Sublime\ Text\ 3</span><br><span class="line">mv ~/Application\ Support/Sublime\ Text\ 3/Installed\ Packages ~/Library/Mobile\ Documents/com~apple~CloudDocs/Sublime\ Text\ 3</span><br><span class="line">cd ~/Application\ Support/Sublime\ Text\ 3</span><br><span class="line">ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/Sublime\ Text\ 3/Packages</span><br><span class="line">ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/Sublime\ Text\ 3/Installed\ Packages</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/工具/" rel="tag">#工具</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/2016/05/18/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/2016/05/21/iterm/" rel="prev" title="必要的装备（2）iTerm">
+                必要的装备（2）iTerm <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/xiaolai.jpg"
+               alt="xiaolai" />
+          <p class="site-author-name" itemprop="name">xiaolai</p>
+          <p class="site-description motion-element" itemprop="description">学习是一种生活方式</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/xiaolai" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/xiaolai" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#文章目录"><span class="nav-number">1.</span> <span class="nav-text">文章目录</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.1.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#下载"><span class="nav-number">2.</span> <span class="nav-text">下载</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#配置"><span class="nav-number">3.</span> <span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本配置文件"><span class="nav-number">3.1.</span> <span class="nav-text">基本配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从-Terminal-里唤出-Sublimetext"><span class="nav-number">3.2.</span> <span class="nav-text">从 Terminal 里唤出 Sublimetext</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在-Finder-上添加个按钮，“Open-with-sublimetext”"><span class="nav-number">3.3.</span> <span class="nav-text">在 Finder 上添加个按钮，“Open with sublimetext”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Package-Control"><span class="nav-number">3.4.</span> <span class="nav-text">安装 Package Control</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装常用插件"><span class="nav-number">3.5.</span> <span class="nav-text">安装常用插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关掉-Vintage"><span class="nav-number">3.6.</span> <span class="nav-text">关掉 Vintage</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插件"><span class="nav-number">4.</span> <span class="nav-text">插件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Package-Control-1"><span class="nav-number">4.1.</span> <span class="nav-text">安装 Package Control</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关掉-Vintage-1"><span class="nav-number">4.2.</span> <span class="nav-text">关掉 Vintage</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常用插件"><span class="nav-number">4.3.</span> <span class="nav-text">常用插件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其它"><span class="nav-number">5.</span> <span class="nav-text">其它</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Sublimetext-的图标"><span class="nav-number">5.1.</span> <span class="nav-text">Sublimetext 的图标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多台机器使用同一个配置"><span class="nav-number">5.2.</span> <span class="nav-text">多台机器使用同一个配置</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">xiaolai</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>

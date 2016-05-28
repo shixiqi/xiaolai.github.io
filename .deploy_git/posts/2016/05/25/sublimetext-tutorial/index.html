@@ -1,0 +1,744 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="sublimetext texteditor puretext," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="Prerequisites
+
+using a mac;
+familiar with google search;
+having bought a VPN (for those who’s in China)
+
+
+GoalWrite like a professional programmer.
+StepsDownload Sublimetext
+http://sublimetext.com
+
+Tr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sublimetext Tutorial">
+<meta property="og:url" content="http://xiaolai.li/posts/2016/05/25/sublimetext-tutorial/index.html">
+<meta property="og:site_name" content="{am} xiaolai">
+<meta property="og:description" content="Prerequisites
+
+using a mac;
+familiar with google search;
+having bought a VPN (for those who’s in China)
+
+
+GoalWrite like a professional programmer.
+StepsDownload Sublimetext
+http://sublimetext.com
+
+Tr">
+<meta property="og:image" content="http://xiaolai.li/images/open-with-sublime-applescript.png">
+<meta property="og:updated_time" content="2016-05-28T04:11:35.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sublimetext Tutorial">
+<meta name="twitter:description" content="Prerequisites
+
+using a mac;
+familiar with google search;
+having bought a VPN (for those who’s in China)
+
+
+GoalWrite like a professional programmer.
+StepsDownload Sublimetext
+http://sublimetext.com
+
+Tr">
+<meta name="twitter:image" content="http://xiaolai.li/images/open-with-sublime-applescript.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"right","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Sublimetext Tutorial | {am} xiaolai </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">{am} xiaolai</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">an ever-growing brain</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Sublimetext Tutorial
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-25T00:00:00+08:00" content="2016-05-25">
+              2016-05-25
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h1><blockquote>
+<ul>
+<li>using a mac;</li>
+<li>familiar with google search;</li>
+<li>having bought a VPN (for those who’s in China)</li>
+</ul>
+</blockquote>
+<h1 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h1><p>Write like a professional programmer.</p>
+<h1 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h1><h2 id="Download-Sublimetext"><a href="#Download-Sublimetext" class="headerlink" title="Download Sublimetext"></a>Download Sublimetext</h2><blockquote>
+<p><a href="http://sublimetext.com" target="_blank" rel="external">http://sublimetext.com</a></p>
+</blockquote>
+<h3 id="Try…"><a href="#Try…" class="headerlink" title="Try…"></a>Try…</h3><p>Remember the rule of thumb:</p>
+<blockquote>
+<p>Always Google first… now and then…</p>
+</blockquote>
+<p>It’s a super trick to google these keyword combination:</p>
+<blockquote>
+<ul>
+<li>sublimetext reasons</li>
+<li>sublimetext tricks tips</li>
+<li>sublimetext tutorial</li>
+<li>sublimetext shortcuts</li>
+<li>sublimetext cheatsheet</li>
+</ul>
+</blockquote>
+<p>Put these keywords into your head (tutorial, cheatsheet, etc.), they’re extremely useful whenever you’re learning a new set of skills online.</p>
+<p>Set a timer, for example, 1 hour, more or less, and then surf the web on your search results. When the timer beeps, come back to follwoing steps.</p>
+<p>When you’re back, you’ve learned a lot, really a lot, and you’re not the same person as you are 1 hour before.</p>
+<h2 id="Basic-Setups"><a href="#Basic-Setups" class="headerlink" title="Basic Setups"></a>Basic Setups</h2><h3 id="User-Settings-File"><a href="#User-Settings-File" class="headerlink" title="User Settings File"></a>User Settings File</h3><p><code>Preference</code> &gt; <code>Settings - User</code></p>
+<p>In the opened file copy &amp; paste the following code, it’s doesn’t matter you understand it or not for now:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;bold_folder_labels&quot;: true,</span><br><span class="line">  &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Monokai.tmTheme&quot;,</span><br><span class="line">  &quot;font_face&quot;: &quot;Monaco&quot;,</span><br><span class="line">  &quot;font_options&quot;: &quot;subpixel_antialias&quot;,</span><br><span class="line">  &quot;font_size&quot;: 16,</span><br><span class="line">  &quot;highlight_line&quot;: true,</span><br><span class="line">  &quot;highlight_modified_tabs&quot;: true,</span><br><span class="line">  &quot;ignored_packages&quot;:</span><br><span class="line">  [</span><br><span class="line">    &quot;Vintage&quot;</span><br><span class="line">  ],</span><br><span class="line">  &quot;line_padding_bottom&quot;: 1,</span><br><span class="line">  &quot;line_padding_top&quot;: 1,</span><br><span class="line">  &quot;rulers&quot;:</span><br><span class="line">  [</span><br><span class="line">    100</span><br><span class="line">  ],</span><br><span class="line">  &quot;scroll_past_end&quot;: true,</span><br><span class="line">  &quot;tab_completion&quot;: true,</span><br><span class="line">  &quot;tab_size&quot;: 2,</span><br><span class="line">  &quot;translate_tabs_to_spaces&quot;: true,</span><br><span class="line">  &quot;trim_trailing_white_space_on_save&quot;: true,</span><br><span class="line">  &quot;word_wrap&quot;: true</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>The whole interface now looks just quite different than a moment before.</p>
+<h3 id="Try…-1"><a href="#Try…-1" class="headerlink" title="Try…"></a>Try…</h3><p>Open a new file with <kbd>⌘</kbd> + <kbd>n</kbd>, copy the text below into the sublimetext:</p>
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</blockquote>
+<p>Now, try to click keyboard in sequence:</p>
+<blockquote>
+<p><kbd>c</kbd><br><kbd>l</kbd><br><kbd>m</kbd><br><kbd>⇥</kbd></p>
+</blockquote>
+<p>… after you click the TAB key (<kbd>⇥</kbd>), <code>clm</code> mysteriously becomes <code>cillum</code>. This is the magic power of the TAB key in the sublimetext. The TAB key (<kbd>⇥</kbd>) tiggers auto-completion, tries to find words contains the letters before the cursor, if such a word exists, then copletes it, like a magic.</p>
+<p>Try another:</p>
+<blockquote>
+<p><kbd>c</kbd><br><kbd>n</kbd><br><kbd>⌃</kbd> + <kbd>space</kbd></p>
+</blockquote>
+<p>(<kbd>⌃</kbd> means the <code>control</code> key.)</p>
+<p>… you may well see two options:</p>
+<blockquote>
+<p>consequat<br>consectetur</p>
+</blockquote>
+<p>You can use <kbd>↑</kbd> and <kbd>↓</kbd> to select…</p>
+<p>Now you know that the TAB key (<kbd>⇥</kbd>) can do unlimited tricks in sublimetext.</p>
+<h2 id="Advanced-Setups"><a href="#Advanced-Setups" class="headerlink" title="Advanced Setups"></a>Advanced Setups</h2><h3 id="Install-Package-Control"><a href="#Install-Package-Control" class="headerlink" title="Install Package Control"></a>Install Package Control</h3><p>Go the the website: <a href="https://packagecontrol.io" target="_blank" rel="external">https://packagecontrol.io</a> and follow the instruction.</p>
+<h3 id="Try…-2"><a href="#Try…-2" class="headerlink" title="Try…"></a>Try…</h3><p>Google again!</p>
+<blockquote>
+<p>sublimetext popular packages</p>
+</blockquote>
+<p>Read, and try them out.</p>
+<p>For example, you might well find out some better color themes. I personally love <a href="https://github.com/kkga/spacegray/" target="_blank" rel="external">Spacegray theme</a> so much.</p>
+<h3 id="Packges-you-can’t-live-without"><a href="#Packges-you-can’t-live-without" class="headerlink" title="Packges you can’t live without"></a>Packges you can’t live without</h3><blockquote>
+<ul>
+<li>SidebarEnhancement</li>
+<li>All Autocomplete</li>
+<li>ColorPicker</li>
+<li>AlignTab</li>
+</ul>
+</blockquote>
+<p>A lot more you’ll install in the future, so just don’t try too much right now. Time to go forward.</p>
+<h2 id="Like-a-programmer…"><a href="#Like-a-programmer…" class="headerlink" title="Like a programmer…"></a>Like a programmer…</h2><h3 id="Learn-HTML"><a href="#Learn-HTML" class="headerlink" title="Learn HTML"></a>Learn HTML</h3><p>In fact, you can learn HTML within 5 minutes.</p>
+<blockquote>
+<p>What is HTML? Writing HTML is to add some tags to a pure text so that it can be properlly displayed in the browsers.</p>
+</blockquote>
+<p>That’s it.</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">What is <span class="tag">&lt;<span class="name">strong</span>&gt;</span>HTML<span class="tag">&lt;/<span class="name">strong</span>&gt;</span>? Writing HTML is</span><br><span class="line"><span class="tag">&lt;<span class="name">em</span>&gt;</span>to add some tags to a pure text so that it</span><br><span class="line">can be properlly displayed in the browsers<span class="tag">&lt;/<span class="name">em</span>&gt;</span>.</span><br></pre></td></tr></table></figure>
+<p>… the browser interpretes this “tagged text”, and display them in a proper format.</p>
+<blockquote>
+<p>What is <strong>HTML</strong>? Writing HTML is <em>to add some tags to a pure text so that it can be properlly displayed in the browsers</em>.</p>
+</blockquote>
+<p>You see the text in <em>bold</em> and the <em>italic</em> format? ? Over. Your learning phase is over. Now that you know the essence of writing HTML, the only thing needed is to try out the all tags. Google again, merely search the word ‘html’, and then you’ll encounter the famous site: <a href="http://www.w3schools.com/html/" target="_blank" rel="external">W3Schools</a></p>
+<p>Give yourself one whole afternoon, or night, fill those tags into your brain.</p>
+<h2 id="Integrating-Terminal-Finder-Sublime-Text-and-the-Browsers…"><a href="#Integrating-Terminal-Finder-Sublime-Text-and-the-Browsers…" class="headerlink" title="Integrating Terminal, Finder, Sublime Text, and the Browsers…"></a>Integrating Terminal, Finder, Sublime Text, and the Browsers…</h2><h3 id="Use-a-more-advanced-Command-Line-Tool-iTerm"><a href="#Use-a-more-advanced-Command-Line-Tool-iTerm" class="headerlink" title="Use a more advanced Command Line Tool: iTerm"></a>Use a more advanced Command Line Tool: iTerm</h3><p>Same as before, you can search on Google:</p>
+<blockquote>
+<ul>
+<li>iTerm reasons</li>
+<li>iTerm tricks tips</li>
+<li>iTerm tutorial</li>
+<li>iTerm shortcuts</li>
+</ul>
+</blockquote>
+<p>Then you’ll surely prefer iTerm over Terminal.</p>
+<p>Open iTerm, use the keybinding <kbd>⌘</kbd> + <kbd>,</kbd> to call out the <code>preference panel</code>, in the Keys tab, check “Show/hid iTerm2 with a system-wide hotkey”, set Hotkey as <kbd>⌘</kbd> + <kbd>.</kbd>.</p>
+<h3 id="Write-and-view-HTML-simultaneously"><a href="#Write-and-view-HTML-simultaneously" class="headerlink" title="Write and view HTML simultaneously"></a>Write and view HTML simultaneously</h3><p>There’re several options:</p>
+<blockquote>
+<ul>
+<li><a href="http://livereload.com/" target="_blank" rel="external">LiveReload</a></li>
+<li><a href="http://livestyle.io/" target="_blank" rel="external">LiveStyle</a></li>
+<li><a href="http://fireapp.kkbox.com/" target="_blank" rel="external">Fire</a></li>
+</ul>
+</blockquote>
+<p>However the most convenient way is to use a sublimetext package:</p>
+<h3 id="Open-here-files-folder-with-Sublimetext-in-Finder"><a href="#Open-here-files-folder-with-Sublimetext-in-Finder" class="headerlink" title="Open here (files/folder) with Sublimetext in Finder"></a>Open here (files/folder) with Sublimetext in Finder</h3><p>In Spotlight, call out the program Automator, create an Application (rather than Workflow or Service),</p>
+<img src="/images/open-with-sublime-applescript.png">
+<p>add a AppleScript to the created Application:</p>
+<figure class="highlight applescript"><figcaption><span>Automator Application AppleScript</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">on</span> <span class="built_in">run</span> &#123;input, parameters&#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">set</span> finderSelection <span class="keyword">to</span> <span class="string">""</span></span><br><span class="line">  <span class="keyword">set</span> theTarget <span class="keyword">to</span> <span class="string">""</span></span><br><span class="line">  <span class="keyword">set</span> appPath <span class="keyword">to</span> <span class="built_in">path to</span> <span class="built_in">application</span> <span class="string">"Sublime Text"</span></span><br><span class="line">  <span class="keyword">set</span> defaultTarget <span class="keyword">to</span> (<span class="built_in">path to</span> home folder <span class="keyword">as</span> <span class="built_in">alias</span>)</span><br><span class="line">  <span class="comment">-- comment line above and uncomment line below to open desktop instead of user home when there's no selection or open folder in the Finder:</span></span><br><span class="line">  <span class="comment">-- set defaultTarget to (path to desktop folder as alias)</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (input <span class="keyword">as</span> <span class="built_in">string</span>) <span class="keyword">is</span> <span class="string">""</span> <span class="keyword">then</span></span><br><span class="line">    <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">      <span class="keyword">set</span> finderSelection <span class="keyword">to</span> (<span class="keyword">get</span> selection)</span><br><span class="line">      <span class="keyword">if</span> <span class="built_in">length</span> <span class="keyword">of</span> finderSelection <span class="keyword">is</span> <span class="keyword">greater than</span> <span class="number">0</span> <span class="keyword">then</span></span><br><span class="line">        <span class="keyword">set</span> theTarget <span class="keyword">to</span> finderSelection</span><br><span class="line">      <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">try</span></span><br><span class="line">          <span class="keyword">set</span> theTarget <span class="keyword">to</span> (folder <span class="keyword">of</span> <span class="keyword">the</span> <span class="keyword">front</span> window <span class="keyword">as</span> <span class="built_in">alias</span>)</span><br><span class="line">        <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line">          <span class="keyword">set</span> theTarget <span class="keyword">to</span> defaultTarget</span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">        open theTarget using appPath</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">set</span> targets <span class="keyword">to</span> &#123;&#125;</span><br><span class="line">      <span class="keyword">set</span> oldDelimiters <span class="keyword">to</span> <span class="literal">text item delimiters</span></span><br><span class="line">      <span class="keyword">set</span> <span class="literal">text item delimiters</span> <span class="keyword">to</span> <span class="literal">tab</span></span><br><span class="line">      <span class="keyword">set</span> qArray <span class="keyword">to</span> <span class="keyword">every</span> <span class="built_in">text</span> <span class="built_in">item</span> <span class="keyword">of</span> q</span><br><span class="line">      <span class="keyword">set</span> <span class="literal">text item delimiters</span> <span class="keyword">to</span> oldDelimiters</span><br><span class="line">      <span class="keyword">repeat</span> <span class="keyword">with</span> atarget <span class="keyword">in</span> qArray</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> atarget <span class="keyword">starts with</span> <span class="string">"~"</span> <span class="keyword">then</span></span><br><span class="line">        <span class="keyword">set</span> userHome <span class="keyword">to</span> <span class="keyword">POSIX path</span> <span class="keyword">of</span> (<span class="built_in">path to</span> home folder)</span><br><span class="line">        <span class="keyword">if</span> userHome <span class="keyword">ends with</span> <span class="string">"/"</span> <span class="keyword">then</span></span><br><span class="line">          <span class="keyword">set</span> userHome <span class="keyword">to</span> <span class="built_in">characters</span> <span class="number">1</span> <span class="keyword">thru</span> <span class="number">-2</span> <span class="keyword">of</span> userHome <span class="keyword">as</span> <span class="built_in">string</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span></span><br><span class="line">          <span class="keyword">set</span> atarget <span class="keyword">to</span> userHome &amp; <span class="built_in">characters</span> <span class="number">2</span> <span class="keyword">thru</span> <span class="number">-1</span> <span class="keyword">of</span> atarget <span class="keyword">as</span> <span class="built_in">string</span></span><br><span class="line">        <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line">          <span class="keyword">set</span> atarget <span class="keyword">to</span> userHome</span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">set</span> targetAlias <span class="keyword">to</span> ((<span class="keyword">POSIX file</span> atarget) <span class="keyword">as</span> <span class="built_in">alias</span>)</span><br><span class="line">        <span class="keyword">set</span> targets <span class="keyword">to</span> targets &amp; targetAlias</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">set</span> theTarget <span class="keyword">to</span> targets</span><br><span class="line"></span><br><span class="line">      <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">        open theTarget using appPath</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line"><span class="built_in">        return</span> (input <span class="keyword">as</span> <span class="built_in">string</span>) &amp; <span class="string">" is not a valid file or folder path."</span></span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">  <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"><span class="built_in"></span><br><span class="line">  return</span> input</span><br><span class="line"><span class="keyword">end</span> <span class="built_in">run</span></span><br></pre></td></tr></table></figure>
+<h3 id="Open-here-folder-with-iTerm-Terminal-in-Finder"><a href="#Open-here-folder-with-iTerm-Terminal-in-Finder" class="headerlink" title="Open here (folder) with iTerm/Terminal in Finder"></a>Open here (folder) with iTerm/Terminal in Finder</h3><p>In Spotlight, call out the program Automator, create an Application (rather than Workflow or Service), add a AppleScript to the created Application:</p>
+<figure class="highlight applescript"><figcaption><span>Open here in iTerm</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">on</span> <span class="built_in">run</span> &#123;input, parameters&#125;</span><br><span class="line">  <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">    <span class="keyword">set</span> dir_path <span class="keyword">to</span> <span class="keyword">quoted form</span> <span class="keyword">of</span> (<span class="keyword">POSIX path</span> <span class="keyword">of</span> (folder <span class="keyword">of</span> <span class="keyword">the</span> <span class="keyword">front</span> window <span class="keyword">as</span> <span class="built_in">alias</span>))</span><br><span class="line">  <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">  CD_to(dir_path)</span><br><span class="line"><span class="keyword">end</span> <span class="built_in">run</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">on</span> CD_to(theDir)</span><br><span class="line">  <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"iTerm"</span></span><br><span class="line">    <span class="built_in">activate</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">set</span> sesh <span class="keyword">to</span> current session <span class="keyword">of</span> current terminal</span><br><span class="line">    <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line">      <span class="keyword">set</span> term <span class="keyword">to</span> (make new terminal)</span><br><span class="line">      <span class="keyword">tell</span> term</span><br><span class="line">        <span class="built_in">launch</span> session <span class="string">"Default"</span></span><br><span class="line">        <span class="keyword">set</span> sesh <span class="keyword">to</span> current session</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">tell</span> sesh</span><br><span class="line">      <span class="built_in">write</span> <span class="built_in">text</span> <span class="string">"cd "</span> &amp; theDir &amp; <span class="string">";clear;"</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">  <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"><span class="keyword">end</span> CD_to</span><br></pre></td></tr></table></figure>
+<p>Save the Application anywhere with any name, then drap the Application to Finder’s toolbar while holding the <kbd>⌘</kbd> key.</p>
+<h3 id="Open-here-folder-with-Finder-from-iTerm-Terminal"><a href="#Open-here-folder-with-Finder-from-iTerm-Terminal" class="headerlink" title="Open here (folder) with Finder from iTerm/Terminal"></a>Open here (folder) with Finder from iTerm/Terminal</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ open .</span><br></pre></td></tr></table></figure>
+<h3 id="Open-here-folder-with-Sublimetext-in-iTerm-Terminal"><a href="#Open-here-folder-with-Sublimetext-in-iTerm-Terminal" class="headerlink" title="Open here (folder) with Sublimetext in iTerm/Terminal"></a>Open here (folder) with Sublimetext in iTerm/Terminal</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ln -s &quot;/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl&quot; /usr/local/bin/subl</span><br></pre></td></tr></table></figure>
+<p>Then you can open the current folder with Sublimetext like this:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ subl .</span><br></pre></td></tr></table></figure>
+<h3 id="Open-files-folder-with-iTerm-Terminal-Finder-in-Sublimetext"><a href="#Open-files-folder-with-iTerm-Terminal-Finder-in-Sublimetext" class="headerlink" title="Open files/folder with iTerm/Terminal/Finder in Sublimetext"></a>Open files/folder with iTerm/Terminal/Finder in Sublimetext</h3><p>In Package Control, install the Package, Sidebar Enhencement. (You might have already installed this package…)</p>
+<h3 id="Refresh-Browsers-in-Sublimetext"><a href="#Refresh-Browsers-in-Sublimetext" class="headerlink" title="Refresh Browsers in Sublimetext"></a>Refresh Browsers in Sublimetext</h3><blockquote>
+<p>Browser Refresh</p>
+</blockquote>
+<p>Check it out on <a href="https://github.com/gcollazo/BrowserRefresh-Sublime" target="_blank" rel="external">its github page</a>.</p>
+<h2 id="Final-Tips"><a href="#Final-Tips" class="headerlink" title="Final Tips"></a>Final Tips</h2><h3 id="Move-cursor-forward-over-braces-quotes"><a href="#Move-cursor-forward-over-braces-quotes" class="headerlink" title="Move cursor forward over braces, quotes"></a>Move cursor forward over braces, quotes</h3><p>in <code>Preference &gt; Keybindings - User</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123; &quot;keys&quot;: [&quot;enter&quot;], &quot;command&quot;: &quot;move&quot;, &quot;args&quot;: &#123;&quot;by&quot;: &quot;characters&quot;, &quot;forward&quot;: true&#125;, &quot;context&quot;:</span><br><span class="line">  [</span><br><span class="line">      &#123; &quot;key&quot;: &quot;following_text&quot;, &quot;operator&quot;: &quot;regex_contains&quot;, &quot;operand&quot;: &quot;^[),;:&apos;&#125;\&quot;\\]]&quot;, &quot;match_all&quot;: true &#125;,</span><br><span class="line">      &#123; &quot;key&quot;: &quot;auto_complete_visible&quot;, &quot;operator&quot;: &quot;equal&quot;, &quot;operand&quot;: false &#125;</span><br><span class="line">  ]</span><br><span class="line">  &#125;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p>If you don’t want to move cursor, instead you want to break the line, use <kbd>⇧</kbd> + <kbd>⏎</kbd>.</p>
+<h3 id="AlignTab"><a href="#AlignTab" class="headerlink" title="AlignTab"></a>AlignTab</h3><p>This is a little bit hard for beginners, but you’d better try hard to understand. Go figure it out.</p>
+<h3 id="Keybindings-Macros-Snippets"><a href="#Keybindings-Macros-Snippets" class="headerlink" title="Keybindings, Macros, Snippets"></a>Keybindings, Macros, Snippets</h3><p>As you go forward, you’ll need more tricks to meet your need, you’ll set your own kebindings, macros, and snippets… But what are they? Don’t mind right now, just remember these words, and you are going to naturally Google them now and then.</p>
+<p>My own Snippets is being saved on Github:</p>
+<blockquote>
+<p><a href="https://github.com/xiaolai/sublime-snippets" target="_blank" rel="external">https://github.com/xiaolai/sublime-snippets</a></p>
+</blockquote>
+<p>And in the README.md file, my own User/Keybinding is also included.</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/sublimetext-texteditor-puretext/" rel="tag">#sublimetext texteditor puretext</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/2016/05/23/publish-an-npm-package/" rel="next" title="如何在 npm 上发布一个包 (npm module/package)">
+                <i class="fa fa-chevron-left"></i> 如何在 npm 上发布一个包 (npm module/package)
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/xiaolai.jpg"
+               alt="xiaolai" />
+          <p class="site-author-name" itemprop="name">xiaolai</p>
+          <p class="site-description motion-element" itemprop="description">学习是一种生活方式</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/xiaolai" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/xiaolai" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Prerequisites"><span class="nav-number">1.</span> <span class="nav-text">Prerequisites</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Goal"><span class="nav-number">2.</span> <span class="nav-text">Goal</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Steps"><span class="nav-number">3.</span> <span class="nav-text">Steps</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-Sublimetext"><span class="nav-number">3.1.</span> <span class="nav-text">Download Sublimetext</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Try…"><span class="nav-number">3.1.1.</span> <span class="nav-text">Try…</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Setups"><span class="nav-number">3.2.</span> <span class="nav-text">Basic Setups</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#User-Settings-File"><span class="nav-number">3.2.1.</span> <span class="nav-text">User Settings File</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Try…-1"><span class="nav-number">3.2.2.</span> <span class="nav-text">Try…</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Advanced-Setups"><span class="nav-number">3.3.</span> <span class="nav-text">Advanced Setups</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Package-Control"><span class="nav-number">3.3.1.</span> <span class="nav-text">Install Package Control</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Try…-2"><span class="nav-number">3.3.2.</span> <span class="nav-text">Try…</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Packges-you-can’t-live-without"><span class="nav-number">3.3.3.</span> <span class="nav-text">Packges you can’t live without</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Like-a-programmer…"><span class="nav-number">3.4.</span> <span class="nav-text">Like a programmer…</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Learn-HTML"><span class="nav-number">3.4.1.</span> <span class="nav-text">Learn HTML</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Integrating-Terminal-Finder-Sublime-Text-and-the-Browsers…"><span class="nav-number">3.5.</span> <span class="nav-text">Integrating Terminal, Finder, Sublime Text, and the Browsers…</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Use-a-more-advanced-Command-Line-Tool-iTerm"><span class="nav-number">3.5.1.</span> <span class="nav-text">Use a more advanced Command Line Tool: iTerm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Write-and-view-HTML-simultaneously"><span class="nav-number">3.5.2.</span> <span class="nav-text">Write and view HTML simultaneously</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Open-here-files-folder-with-Sublimetext-in-Finder"><span class="nav-number">3.5.3.</span> <span class="nav-text">Open here (files/folder) with Sublimetext in Finder</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Open-here-folder-with-iTerm-Terminal-in-Finder"><span class="nav-number">3.5.4.</span> <span class="nav-text">Open here (folder) with iTerm/Terminal in Finder</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Open-here-folder-with-Finder-from-iTerm-Terminal"><span class="nav-number">3.5.5.</span> <span class="nav-text">Open here (folder) with Finder from iTerm/Terminal</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Open-here-folder-with-Sublimetext-in-iTerm-Terminal"><span class="nav-number">3.5.6.</span> <span class="nav-text">Open here (folder) with Sublimetext in iTerm/Terminal</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Open-files-folder-with-iTerm-Terminal-Finder-in-Sublimetext"><span class="nav-number">3.5.7.</span> <span class="nav-text">Open files/folder with iTerm/Terminal/Finder in Sublimetext</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Refresh-Browsers-in-Sublimetext"><span class="nav-number">3.5.8.</span> <span class="nav-text">Refresh Browsers in Sublimetext</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Final-Tips"><span class="nav-number">3.6.</span> <span class="nav-text">Final Tips</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Move-cursor-forward-over-braces-quotes"><span class="nav-number">3.6.1.</span> <span class="nav-text">Move cursor forward over braces, quotes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AlignTab"><span class="nav-number">3.6.2.</span> <span class="nav-text">AlignTab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Keybindings-Macros-Snippets"><span class="nav-number">3.6.3.</span> <span class="nav-text">Keybindings, Macros, Snippets</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">xiaolai</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
