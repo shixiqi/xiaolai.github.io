@@ -3,5 +3,4 @@ Thumbs.db
 *.log
 node_modules
 .deploy_git
-.gitignore
 .npmignore
