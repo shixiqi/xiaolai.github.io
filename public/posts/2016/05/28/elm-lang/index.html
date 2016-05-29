@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="工具," />
+  <meta name="keywords" content="language," />
 
 
 
@@ -84,28 +84,16 @@
 
 
 
-<meta name="description" content="iTerm 比 OS X 里自带的 Terminal 不知道要强大多少倍…… 看两张图片就知道了。更多的功能介绍，可直接移步 iTer 官方网站了解。
-
-
-在 Finder 上添加一个按钮，“Open here in iTerm”用 Automator 创建一个 Application（不是 Workflow 或者 Service；与创建 Sublimetext 的 Finder 工具栏应用一样）">
+<meta name="description" content="See “todo example wriiten by Elm“">
 <meta property="og:type" content="article">
-<meta property="og:title" content="必要的装备（2）iTerm">
-<meta property="og:url" content="http://xiaolai.li/posts/2016/05/21/iterm/index.html">
+<meta property="og:title" content="Elm Language">
+<meta property="og:url" content="http://xiaolai.li/posts/2016/05/28/elm-lang/index.html">
 <meta property="og:site_name" content="{am} xiaolai">
-<meta property="og:description" content="iTerm 比 OS X 里自带的 Terminal 不知道要强大多少倍…… 看两张图片就知道了。更多的功能介绍，可直接移步 iTer 官方网站了解。
-
-
-在 Finder 上添加一个按钮，“Open here in iTerm”用 Automator 创建一个 Application（不是 Workflow 或者 Service；与创建 Sublimetext 的 Finder 工具栏应用一样）">
-<meta property="og:image" content="http://xiaolai.li/images/iterm-autocomplete.png">
-<meta property="og:image" content="http://xiaolai.li/images/iterm-pastehistory.png">
-<meta property="og:updated_time" content="2016-05-28T17:24:52.000Z">
+<meta property="og:description" content="See “todo example wriiten by Elm“">
+<meta property="og:updated_time" content="2016-05-28T18:30:14.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="必要的装备（2）iTerm">
-<meta name="twitter:description" content="iTerm 比 OS X 里自带的 Terminal 不知道要强大多少倍…… 看两张图片就知道了。更多的功能介绍，可直接移步 iTer 官方网站了解。
-
-
-在 Finder 上添加一个按钮，“Open here in iTerm”用 Automator 创建一个 Application（不是 Workflow 或者 Service；与创建 Sublimetext 的 Finder 工具栏应用一样）">
-<meta name="twitter:image" content="http://xiaolai.li/images/iterm-autocomplete.png">
+<meta name="twitter:title" content="Elm Language">
+<meta name="twitter:description" content="See “todo example wriiten by Elm“">
 
 
 
@@ -123,7 +111,7 @@
   };
 </script>
 
-  <title> 必要的装备（2）iTerm | {am} xiaolai </title>
+  <title> Elm Language | {am} xiaolai </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -243,7 +231,7 @@
             
             
               
-                必要的装备（2）iTerm
+                Elm Language
               
             
           </h1>
@@ -255,8 +243,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-21T00:00:00+08:00" content="2016-05-21">
-              2016-05-21
+            <time itemprop="dateCreated" datetime="2016-05-28T00:00:00+08:00" content="2016-05-28">
+              2016-05-28
             </time>
           </span>
 
@@ -283,12 +271,7 @@
       
 
       
-        <p>iTerm 比 OS X 里自带的 Terminal 不知道要强大多少倍…… 看两张图片就知道了。更多的功能介绍，可直接移步 <a href="https://www.iterm2.com/features.html" target="_blank" rel="external">iTer 官方网站</a>了解。</p>
-<img src="/images/iterm-autocomplete.png">
-<img src="/images/iterm-pastehistory.png">
-<h2 id="在-Finder-上添加一个按钮，“Open-here-in-iTerm”"><a href="#在-Finder-上添加一个按钮，“Open-here-in-iTerm”" class="headerlink" title="在 Finder 上添加一个按钮，“Open here in iTerm”"></a>在 Finder 上添加一个按钮，“Open here in iTerm”</h2><p>用 Automator 创建一个 Application（不是 Workflow 或者 Service；与<a href="http://xiaolai.li/#在-finder-上添加个按钮open-with-sublimetext">创建 Sublimetext 的 Finder 工具栏应用一样</a>），添加一个 AppleScript:</p>
-<figure class="highlight applescript"><figcaption><span>Open here in iTerm</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">on</span> <span class="built_in">run</span> &#123;input, parameters&#125;</span><br><span class="line">  <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span></span><br><span class="line">    <span class="keyword">set</span> dir_path <span class="keyword">to</span> <span class="keyword">quoted form</span> <span class="keyword">of</span> (<span class="keyword">POSIX path</span> <span class="keyword">of</span> (folder <span class="keyword">of</span> <span class="keyword">the</span> <span class="keyword">front</span> window <span class="keyword">as</span> <span class="built_in">alias</span>))</span><br><span class="line">  <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">  CD_to(dir_path)</span><br><span class="line"><span class="keyword">end</span> <span class="built_in">run</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">on</span> CD_to(theDir)</span><br><span class="line">  <span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"iTerm"</span></span><br><span class="line">    <span class="built_in">activate</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">      <span class="keyword">set</span> sesh <span class="keyword">to</span> current session <span class="keyword">of</span> current terminal</span><br><span class="line">    <span class="keyword">on</span> <span class="keyword">error</span></span><br><span class="line">      <span class="keyword">set</span> term <span class="keyword">to</span> (make new terminal)</span><br><span class="line">      <span class="keyword">tell</span> term</span><br><span class="line">        <span class="built_in">launch</span> session <span class="string">"Default"</span></span><br><span class="line">        <span class="keyword">set</span> sesh <span class="keyword">to</span> current session</span><br><span class="line">      <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">tell</span> sesh</span><br><span class="line">      <span class="built_in">write</span> <span class="built_in">text</span> <span class="string">"cd "</span> &amp; theDir &amp; <span class="string">";clear;"</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">  <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"><span class="keyword">end</span> CD_to</span><br></pre></td></tr></table></figure>
-<p>而后把这个 Application 保存到 <code>~/Applications</code> 目录中，在按住 Command 键的同时，将这个程序拖到 Finder 工具栏上……</p>
+        <p>See “<a href="/elmtodo/">todo example wriiten by Elm</a>“</p>
 
       
     </div>
@@ -310,7 +293,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/工具/" rel="tag">#工具</a>
+            <a href="/tags/language/" rel="tag">#language</a>
           
         </div>
       
@@ -319,17 +302,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/2016/05/19/sublimetext/" rel="next" title="必要的装备（1）SublimeText">
-                <i class="fa fa-chevron-left"></i> 必要的装备（1）SublimeText
+              <a href="/posts/2016/05/25/sublimetext-tutorial/" rel="next" title="Sublimetext Tutorial">
+                <i class="fa fa-chevron-left"></i> Sublimetext Tutorial
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/2016/05/23/publish-an-npm-package/" rel="prev" title="如何在 npm 上发布一个包 (npm module/package)">
-                如何在 npm 上发布一个包 (npm module/package) <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -436,7 +415,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#在-Finder-上添加一个按钮，“Open-here-in-iTerm”"><span class="nav-number">1.</span> <span class="nav-text">在 Finder 上添加一个按钮，“Open here in iTerm”</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
