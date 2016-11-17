@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/xiaolai
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xiaolai.li
+  * I am xiaolai (https://keybase.io/xiaolai) on keybase.
+  * I have a public key with fingerprint 2470 6C9E 8220 DB15 4D7F  9994 A782 5A20 0562 3281
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101792311028fd6d06843c9fd6e5bc6d5c3a4675fcc028c97c207e456a720cdc6b90a",
+            "fingerprint": "24706c9e8220db154d7f9994a7825a2005623281",
+            "host": "keybase.io",
+            "key_id": "a7825a2005623281",
+            "kid": "0101792311028fd6d06843c9fd6e5bc6d5c3a4675fcc028c97c207e456a720cdc6b90a",
+            "uid": "93989e03ea0ca9bfd86ad11476451c19",
+            "username": "xiaolai"
+        },
+        "service": {
+            "hostname": "xiaolai.li",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479403060,
+    "expire_in": 157680000,
+    "prev": "51f57b13fc3892bf62d555bd5c1b0feb9e774c327bd49861b1aaf8fefbdfd2ef",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIlAnicrZJ9aI1RHMfvZRvuWuatK5F5yBqbneftPM+5Wf4gsRrJ1Jhc5+3Zfbi7
+z3Xvs9mseQl5iyZy/TGFlT+0uJSxpOYlFvISRV7Kkpkk1ITNzHkWfyh/Ov+cc359
+vt/z/f06N3KG+wL+7MyTvsbWNzv8d64eqvFVFHVrDRJxWL0UapDW86GNRxlPuuH1
+NpNCEpCBbCBFlWWgmBaDDEBTUykSR64TCplOVaxBQ7coFQRFBlWAwTUdYkMBlFFI
+EMBSoWTZsSqeiCfsmCtsFc0AkCJuKgpgRNY1ZlgIIQ0bpqJjBQAdKqpiykIYcZKe
+QoQjOMnn2I6oiUt4KN4/+P+cu2bIDqnIRByoHAOKEbGYCTGTZc2Ami5TGXlgkidi
+uJoLus7GThTbUmOhJIq1NuXeXL1G/gbmRG0hjCcc16FOVNQjrhsPeTK3Pu5xGzkJ
+/3YIEzvGxAyFoJYnkrYTk0KyIKlre5YiCtKACiAolHhd3E7wsO0RugFNIJb3DK8V
+lrps6QaRVYuqJlKIBRWm6zoR85AJsDhB3DA0qioGYRoyoUxkjC3T4hZhFlO4JXk9
+bYg5UgiKmLhKWCbtqhh2axJcarzWsTrD5w/4sjKHeX/LFxiV++fHbewYMbil6+2U
+8tz2tlEde4KH66zc8Wqk/PSNptJZfcExvbmNwQnTU/6Dj5q1VUWzRgbKV65edPb+
+xKnHC/Iim7rWnUuvyAdbW8mXj62pUAucMX/3QH/2GV//rbHropNH72taXpZuuXJ2
+/5N3awc/5VUdcGuKt52Y8ul8Tmdq8be3G5Z+bct5P2/TwrtXes4sa3pePC2SsTKd
+X/CsFPTwMvI9/T4cfLGZHar4EWh/+eH28c83e+sfPn73cwG8XNw5tnj0seqnR7ot
+bXz3rov39pZe6CsowfWVR/e8eNU2kwRTykczL6trUmrJzmtZS5uLqvsfdq6df+nB
+wPXK7adm7/Wn1/TMHbdw4LW/5BdlxDuj
+=WNWn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xiaolai
+
+==================================================================

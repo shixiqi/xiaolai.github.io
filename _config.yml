@@ -6,7 +6,7 @@
 title: "{am} xiaolai"
 subtitle: "an ever-growing brain"
 description: 学习是一种生活方式
-author: xiaolai
+author: xiaolnpm set progress=falseai
 language: zh-Hans
 timezone:
 
@@ -20,7 +20,7 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
+# tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -39,8 +39,8 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
-  auto_detect: false
+  line_number: true
+  auto_detect: true
   tab_replace: "  "
 
 # Category & Tag
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
